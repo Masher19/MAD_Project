@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="365dp"
+        android:layout_height="116dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:padding="5dp"
+        android:text="Let's Setup your account !"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        app:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <TextView
+        android:layout_width="379dp"
+        android:layout_height="59dp"
+        android:text="You can set up your account which can be your bank account or wallet."
+        android:textColor="@color/black"
+        android:textSize="19dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="210dp"
+        android:fontFamily="sans-serif-condensed-medium" />
+
+    <Button
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="326dp"
+        android:layout_height="71dp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="621dp"
+        android:text="Let's Go"
+        android:textSize="16sp"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="295dp"
+        android:layout_height="256dp"
+        app:srcCompat="@drawable/profile_final"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="325dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

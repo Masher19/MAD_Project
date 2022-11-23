@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+
+    <TextView
+        android:layout_width="344dp"
+        android:layout_height="100dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="KNOW WHERE YOUR MONEY GOES"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="38dp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="344dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Track your transactions easily with categories and financial report. ."
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="464dp" />
+
+    <Button
+        android:id="@+id/containedButton"
+        android:layout_width="255dp"
+        android:layout_height="69dp"
+        android:background="@color/teal_700"
+        android:padding="@dimen/cardview_default_elevation"
+        android:text="SIGN-UP"
+        android:textSize="18sp"
+        android:transitionName="@string/material_motion_easing_accelerated"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="530dp" />
+
+    <Button
+        android:id="@+id/containedButton"
+        android:layout_width="255dp"
+        android:layout_height="69dp"
+        android:padding="@dimen/cardview_default_elevation"
+        android:text="LOGIN"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:transitionName="@string/material_motion_easing_accelerated"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="624dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/p2"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <Button
+        android:id="@+id/containedButton"
+        android:layout_width="112dp"
+        android:layout_height="35dp"
+        android:padding="@dimen/cardview_default_elevation"
+        android:text="skip"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:transitionName="@string/material_motion_easing_accelerated"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteX="283dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
