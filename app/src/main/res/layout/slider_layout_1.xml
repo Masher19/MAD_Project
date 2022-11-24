@@ -3,12 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src=@drawable/ic_launcher_background"
+        android:src="@drawable/ic_launcher_background"
         tools:layout_editor_absoluteX="79dp"
         tools:layout_editor_absoluteY="102dp" />
 

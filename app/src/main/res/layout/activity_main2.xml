@@ -15,7 +15,8 @@
         android:text="SIGN-UP"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="541dp" />
+        tools:layout_editor_absoluteY="541dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/containedButton"
@@ -38,7 +39,8 @@
         android:textColor="@color/black"
         android:textSize="38dp"
         tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="370dp" />
+        tools:layout_editor_absoluteY="370dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -47,7 +49,8 @@
         android:textAlignment="center"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="468.5dp" />
+        tools:layout_editor_absoluteY="468.5dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/containedButton"
@@ -67,9 +70,8 @@
         android:layout_height="206dp"
         app:srcCompat="@drawable/p1"
         tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="96dp" />
+        tools:layout_editor_absoluteY="96dp"
+        tools:ignore="MissingConstraints" />
 
-
-</androidx.viewpager.widget.ViewPager>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

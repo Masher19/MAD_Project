@@ -13,7 +13,7 @@
         android:layout_height="63dp"
         android:fontFamily="sans-serif-black"
         android:shadowColor="@color/black"
-        android:text="Expensenut"
+        android:text="@string/expensenut"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="52sp"
